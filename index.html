@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Пиксельная лендинг-визитка веб-разработчика.">
+  <title>DEV_CARD — веб-разработчик</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' shape-rendering='crispEdges'%3E%3Cpath fill='%23111' d='M2 2h28v28H2z'/%3E%3Cpath fill='%2352b6dd' d='M6 6h8v8H6zM18 6h8v8h-8z'/%3E%3Cpath fill='%23f13ca1' d='M6 18h8v8H6z'/%3E%3Cpath fill='%23ffe95c' d='M18 18h8v8h-8z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+<main>
+  <a class="skip-link" href="#content">К содержанию</a>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="В начало страницы"><span aria-hidden="true" class="brand-mark">01</span><span>DEV_CARD</span></a>
+      <nav aria-label="Основная навигация"><a href="#about">Кто я</a><a href="#work">Проекты</a><a href="#contact">Контакт</a></nav>
+    </header>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="pixel-field" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <p class="hero-kicker">WEB DEVELOPER / PORTFOLIO_2026</p>
+      <h1 id="hero-title"><span>САЙТЫ,</span><span>КОТОРЫЕ</span><span class="outline">РАБОТАЮТ.</span></h1>
+      <p class="hero-copy">Проектирую и собираю понятные веб-интерфейсы — от первой идеи до готового запуска.</p>
+      <a class="start-button" href="#about"><span aria-hidden="true">▶</span> PRESS START</a>
+      <div class="hero-console" aria-label="Пример рабочего процесса">
+        <div class="console-bar"><span></span><span></span><span></span><b>build.log</b></div>
+        <code><span>&gt; define_problem()</span><span class="ok">✓ структура готова</span><span>&gt; craft_interface()</span><span class="ok">✓ адаптив проверен</span><span>&gt; ship()</span><span class="blink">_</span></code>
+      </div>
+    </section>
+    <div id="content">
+      <section class="about dark-section" id="about" aria-labelledby="about-title">
+        <span class="section-index" aria-hidden="true">01</span>
+        <div class="section-heading"><p>ПРОФИЛЬ / PROFILE</p><h2 id="about-title">КТО Я?</h2></div>
+        <div class="about-grid">
+          <p class="lead">Веб-разработчик, который начинает не с эффектов, а с задачи человека.</p>
+          <div class="body-copy"><p>Продумываю структуру, пишу интерфейс и проверяю, чтобы он одинаково уверенно работал на телефоне, ноутбуке и с клавиатуры.</p><p>Люблю ясную типографику, быстрые страницы и детали, которые помогают пользоваться продуктом, а не отвлекают от него.</p></div>
+        </div>
+        <div class="status-strip" role="list" aria-label="Принципы работы"><span role="listitem">[01] СМЫСЛ</span><span role="listitem">[02] СИСТЕМА</span><span role="listitem">[03] ПРОВЕРКА</span></div>
+      </section>
+      <section class="work-section" id="work" aria-labelledby="work-title">
+        <div class="section-heading navy"><p>SELECTED WORK / ДЕМО-КЕЙСЫ</p><h2 id="work-title">ЧТО СОБИРАЮ</h2></div>
+        <div class="project-list">
+          <article class="project project-cyan"><div class="project-no">A1</div><div><p class="project-type">LANDING PAGE</p><h3>ЗАПУСК ПРОДУКТА</h3><p>Чёткая история, один главный сценарий и выразительная подача без лишнего шума.</p></div><div class="mini-layout" aria-hidden="true"><span></span><span></span><span></span><span></span></div></article>
+          <article class="project project-yellow"><div class="project-no">B2</div><div><p class="project-type">WEB APP</p><h3>РАБОЧИЙ ИНТЕРФЕЙС</h3><p>Состояния, формы и данные собраны в понятный маршрут без тупиков и мёртвых кнопок.</p></div><div class="mini-grid" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div></article>
+          <article class="project project-pink"><div class="project-no">C3</div><div><p class="project-type">PORTFOLIO</p><h3>ЛИЧНЫЙ САЙТ</h3><p>Характер автора виден в ритме, тексте и композиции — не в наборе случайных эффектов.</p></div><div class="mini-type" aria-hidden="true">Aa<br><b>11</b></div></article>
+        </div>
+      </section>
+      <section class="process-section" aria-labelledby="process-title">
+        <div class="section-heading compact"><p>WORKFLOW.EXE</p><h2 id="process-title">ТРИ ХОДА ДО РЕЛИЗА</h2></div>
+        <ol class="process-list"><li><b>01</b><h3>РАЗОБРАТЬСЯ</h3><p>Цель, аудитория, контент и главное действие.</p></li><li><b>02</b><h3>СОБРАТЬ</h3><p>Структура, визуальная система и рабочий интерфейс.</p></li><li><b>03</b><h3>ПРОВЕРИТЬ</h3><p>Адаптив, доступность, скорость и реальный запуск.</p></li></ol>
+      </section>
+      <section class="stack-section" aria-labelledby="stack-title">
+        <div><p class="eyebrow">INVENTORY / 06 ITEMS</p><h2 id="stack-title">СТЕК</h2></div>
+        <ul class="stack-list"><li><span>01</span>HTML</li><li><span>02</span>CSS</li><li><span>03</span>TYPE_SCRIPT</li><li><span>04</span>REACT</li><li><span>05</span>NEXT.JS</li><li><span>06</span>A11Y</li></ul>
+      </section>
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy"><p>READY PLAYER TWO?</p><h2 id="contact-title">ДАВАЙТЕ<br>СОБЕРЁМ<br>ВАШ САЙТ.</h2></div>
+        <div class="contact-action"><p>Скопируйте короткий шаблон сообщения, заполните его и отправьте разработчику удобным способом.</p><button type="button" class="copy-button" id="copy-brief">СКОПИРОВАТЬ БРИФ</button><p class="contact-note">Контактные ссылки добавляются после указания реальных данных.</p><span class="copy-status" id="copy-status" aria-live="polite"></span></div>
+      </section>
+    </div>
+    <footer><span>DEV_CARD © 2026</span><a href="#top">↑ НАВЕРХ</a><span>MADE FOR THE WEB</span></footer>
+  </div>
+</main>
+</body>
+</html>
